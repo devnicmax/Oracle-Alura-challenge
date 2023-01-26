@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador - Oracle One Next Education</title>
+
+    <meta name="description" content="Challenge para Oracle Next Education y Alura">
+    <meta name="keywords" content="encriptar, desencriptar, crypt, decrypt">
+    <meta name="author" content="Nicolas Maximowicz">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="header">
+            <img src="./images/logo.png" alt="Logo Alura" class="logo">
+        </div>
+        
+    </header>
+    
+    <main>
+        
+        <seccion class="seccion-principal-1">
+                <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto"></textarea>
+                <div>
+                    <h6 class="info">Solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="buttons">
+                    <button class="btn-crypt">Encriptar</button>
+                    <button class="btn-decrypt">Desencriptar</button>
+                </div>
+        </seccion>
+
+        <section class="section-2">
+            <div class="container-image">
+                <img src="./images/imagen.png" alt="Lupa">
+                <h3>Ningun mensaje fue encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="container-result">
+                <p class="result" id="messageCopy"></p>
+                <button class="btn-copy" id="copy">Copiar</button>
+            </div>
+        
+        </section>
+    </main>
+
+    <footer>
+        
+        <div class="footer">
+            
+            <div class="footer-details">
+                <p>© Copyright 2023- Oracle Next Education & Alura</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
