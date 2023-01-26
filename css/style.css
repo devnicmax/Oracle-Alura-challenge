@@ -94,7 +94,8 @@ main {
 }
 
 .btn-crypt,
-.btn-decrypt {
+.btn-decrypt,
+.btn-copy {
     font-size: 0.5em;
     padding: 1em;
     cursor: pointer;
@@ -129,14 +130,10 @@ main {
 
 .btn-copy{
     border: 1px solid #00425A;
-    border-radius: 0.5em;
     color: #00425A;
-    cursor: pointer;
     margin: 0 auto;
     position: relative;
     top: 80px;
-    padding: 0.2em;
-    font-size: 0.7em;
   
 }
 
